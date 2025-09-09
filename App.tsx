@@ -6,7 +6,7 @@ import SummaryOutput from './components/SummaryOutput';
 import Loader from './components/Loader';
 import ErrorMessage from './components/ErrorMessage';
 
-const MAX_CHARACTERS = 5000;
+const MAX_CHARACTERS = 20000;
 
 const App: React.FC = () => {
   const [blogContent, setBlogContent] = useState<string>('');
