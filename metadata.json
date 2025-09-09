@@ -1,0 +1,5 @@
+{
+  "name": "博客摘要生成器 (Blog Summary Generator)",
+  "description": "一个使用AI根据博客文章内容快速生成吸引人摘要的工具。粘贴您的文章，即可获得一个简短、通俗易懂且符合澳洲本土语言习惯的摘要。",
+  "requestFramePermissions": []
+}
