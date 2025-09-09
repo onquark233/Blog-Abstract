@@ -22,6 +22,7 @@ const TextAreaInput: React.FC<TextAreaInputProps> = ({ value, onChange, placehol
         onChange={onChange}
         placeholder={placeholder}
         rows={12}
+        maxLength={maxLength}
         className="w-full p-4 border border-slate-300 dark:border-slate-600 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150 ease-in-out bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500"
         aria-describedby="character-count"
       />
