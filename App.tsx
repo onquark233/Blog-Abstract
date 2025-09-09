@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { generateSummary } from './services/geminiService';
 import Header from './components/Header';
@@ -38,11 +37,8 @@ const App: React.FC = () => {
   }, [blogContent]);
 
   const handleContentChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    if (e.target.value.length <= MAX_CHARACTERS) {
-      setBlogContent(e.target.value);
-    }
+    setBlogContent(e.target.value);
   };
-
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 font-sans p-4 sm:p-6 lg:p-8">
